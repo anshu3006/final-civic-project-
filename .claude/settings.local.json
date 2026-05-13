@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la frontend/app/admin/ frontend/app/\\\\\\(dashboard\\\\\\)/)",
+      "Bash(wc -l backend/**/*.js frontend/**/*.{tsx,ts})",
+      "Bash(grep -r \"console.log\\\\|console.error\" backend/*.js frontend/components/*.tsx)",
+      "Bash(npm install express-rate-limit)",
+      "Bash(node -c index.js)",
+      "Bash(node -c routes/issue.routes.js)",
+      "Bash(node -c middleware/rateLimiter.js)",
+      "Bash(node -c /c/Users/avsro/Micro-Task/backend/index.js)",
+      "Bash(node -c /c/Users/avsro/Micro-Task/backend/routes/issue.routes.js)",
+      "Bash(node -c /c/Users/avsro/Micro-Task/backend/middleware/rateLimiter.js)"
+    ]
+  }
+}

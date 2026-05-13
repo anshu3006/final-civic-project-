@@ -1,0 +1,23 @@
+{
+	"servers": {
+		"mongo": {
+			"type": "stdio",
+			"command": "npx",
+			"args": [
+				"mongodb-mcp-server@1.8.0",
+				"--connectionString",
+				"mongodb+srv://hawkin:crew@cluster0.fpc2y6p.mongodb.net/?appName=Cluster0",
+				"--telemetry",
+				"enabled"
+			]
+		},
+		"my-mcp-server-538de2ce": {
+			"type": "stdio",
+			"command": "npx",
+			"args": [
+				"@upstash/context7-mcp@1.0.31"
+			]
+		}
+	},
+	"inputs": []
+}
